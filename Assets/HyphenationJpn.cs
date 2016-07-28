@@ -180,7 +180,7 @@ public class HyphenationJpn : UIBehaviour
 		("abcdefghijklmnopqrstuvwxyz" +
 	     "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + 
 	     "0123456789" + 
-	     "<>=/().,").ToCharArray();
+	     "<>=/().,#").ToCharArray();
 
 	private static bool CHECK_HYP_FRONT(char str)
 	{
